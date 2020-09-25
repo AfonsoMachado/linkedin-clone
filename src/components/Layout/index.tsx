@@ -16,7 +16,7 @@ const Layout: React.FC = () => {
   useEffect(() => {
     setTimeout(() => {
       // esperando 1 segundo para o deixar o isloading false
-      // setIsLoading(false);
+      setIsLoading(false);
     }, 1000);
   }, []);
 
@@ -26,7 +26,8 @@ const Layout: React.FC = () => {
       <DesktopHeader />
 
       <span>
-        <AdBanner />
+        {/* Propaganda exibida somente quando a pagina é carregada */}
+        {!isLoading && <AdBanner />}
       </span>
 
       <main>
