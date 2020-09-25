@@ -6,6 +6,9 @@ import {
   LinkedInIcon,
   SearchInput,
   HomeIcon,
+  PeopleIcon,
+  CaseIcon,
+  MessageIcon,
   NotificationsIcon,
   ProfileCircle,
   CaretDownIcon,
@@ -27,8 +30,20 @@ const DesktopHeader: React.FC = () => {
               <span>Início</span>
             </button>
             <button>
+              <PeopleIcon />
+              <span>Minha rede</span>
+            </button>
+            <button>
+              <CaseIcon />
+              <span>Vagas</span>
+            </button>
+            <button>
+              <MessageIcon />
+              <span>Mensagens</span>
+            </button>
+            <button>
               <NotificationsIcon />
-              <span>Notoficações</span>
+              <span>Notificações</span>
             </button>
             <button className="active">
               <ProfileCircle src="https://avatars3.githubusercontent.com/u/11397955?s=460&u=e11b0f50547f9a3b9be9e8b076b652f374ff46b8&v=4" />
