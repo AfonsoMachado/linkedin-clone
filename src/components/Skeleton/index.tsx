@@ -22,4 +22,8 @@ export default styled.div`
       background-position: -135% 0%;
     }
   }
+
+  &.white {
+    background-image: linear-gradient(-90deg, #fff 0%, #e7edf1 50%, #fff 100%);
+  }
 `;
