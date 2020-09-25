@@ -16,7 +16,7 @@ const Layout: React.FC = () => {
   useEffect(() => {
     setTimeout(() => {
       // esperando 1 segundo para o deixar o isloading false
-      setIsLoading(false);
+      // setIsLoading(false);
     }, 1000);
   }, []);
 
@@ -31,8 +31,8 @@ const Layout: React.FC = () => {
 
       <main>
         <LeftColumn isLoading={isLoading} />
-        <MiddleColumn />
-        <RightColumn />
+        <MiddleColumn isLoading={isLoading} />
+        <RightColumn isLoading={isLoading} />
       </main>
     </Container>
   );

@@ -29,6 +29,7 @@ export const ProfileCircle = styled.img`
 
   border-radius: 50%;
   border: 1px solid var(--color-icons);
+  flex-shrink: 0;
 `;
 
 export const SearchInput = styled.input`

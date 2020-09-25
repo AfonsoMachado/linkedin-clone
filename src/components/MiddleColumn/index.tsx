@@ -5,7 +5,7 @@ import FeedPost from './FeedPost';
 
 import { Container } from './styles';
 
-const MiddleColumn: React.FC = () => {
+const MiddleColumn: React.FC<LoadingProps> = ({ isLoading }) => {
   return (
     <Container className="middle-column">
       <FeedShare />
