@@ -20,7 +20,7 @@ const DesktopHeader: React.FC = () => {
       <Wrapper>
         <div className="left">
           <LinkedInIcon />
-          <SearchInput placeholder="Pesquiser" />
+          <SearchInput placeholder="Pesquisar" />
         </div>
 
         <div className="right">
