@@ -23,5 +23,9 @@ export const Container = styled.div`
     .right-column {
       display: unset;
     }
+
+    .middle-column {
+      margin: 0 25px 16px;
+    }
   }
 `;
