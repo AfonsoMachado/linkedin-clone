@@ -50,6 +50,7 @@ export const Wrapper = styled.div`
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       min-width: 90px;
       min-height: 100%;
 
@@ -65,9 +66,29 @@ export const Wrapper = styled.div`
   }
 `;
 
-export const LinkedInIcon = styled(GrLinkedin)``;
+export const LinkedInIcon = styled(GrLinkedin)`
+  width: 34px;
+  height: 34px;
+  color: var(--color-linkedin);
+  background: white;
+  border-radius: 4px;
+  flex-shrink: 0;
+`;
 
-export const SearchInput = styled.div``;
+export const SearchInput = styled.input`
+  margin-left: 12px;
+  background: var(--color-input);
+  color: var(--color-black);
+  font-size: 14px;
+  padding: 7.5px 8px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+
+  &:focus {
+    background: var(--color-white);
+  }
+`;
 
 const iconCSS = css`
   width: 24px;
@@ -103,5 +124,6 @@ export const ProfileCircle = styled.img`
 `;
 
 export const CaretDownIcon = styled(AiFillCaretDown)`
-  ${iconCSS}
+  width: 16px;
+  height: 16px;
 `;
