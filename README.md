@@ -1,7 +1,7 @@
 # UI Clone: linkedIn
 
 <p align="center">:rocket: Clone da interface gráfica da página de feed do LinkedIn, implementado em React.
- Aplicação feita seguindo passos apresentados no vídeo tutorial da <a href="https://www.youtube.com/watch?v=-ZV-_7vNRGw">RocketSeat</a>.
+ Aplicação feita seguindo passos apresentados no vídeo tutorial da <a href="https://www.youtube.com/watch?v=-ZV-_7vNRGw" target="_blank">RocketSeat</a>.
 </p>
 
 ## :computer: Tecnologias
